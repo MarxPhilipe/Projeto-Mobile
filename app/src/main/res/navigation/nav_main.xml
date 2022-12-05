@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/menu_principal">
+
+    <fragment
+        android:id="@+id/menu_principal"
+        android:name="com.marcos.projetomobile.fragments.MenuPrincipalFragment"
+        android:label="fragment_menu_principal"
+        tools:layout="@layout/fragment_menu_principal" />
+    <fragment
+        android:id="@+id/menu_valores"
+        android:name="com.marcos.projetomobile.fragments.Precos"
+        android:label="fragment_precos"
+        tools:layout="@layout/fragment_precos" />
+    <fragment
+        android:id="@+id/menu_sobrenos"
+        android:name="com.marcos.projetomobile.fragments.SobrenosFragment"
+        android:label="fragment_sobrenos"
+        tools:layout="@layout/fragment_sobrenos" />
+    <fragment
+        android:id="@+id/menu_perfil"
+        android:name="com.marcos.projetomobile.fragments.TelaUsuarioFragment"
+        android:label="fragment_tela_usuario"
+        tools:layout="@layout/fragment_tela_usuario" />
+</navigation>
